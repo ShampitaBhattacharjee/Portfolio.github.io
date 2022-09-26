@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* .btn a{
+    text-decoration: none;
+    color: white; */
+.NavBar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    /* background: crimson; */
+    font-family: 'Ubuntu', sans-serif;
+    transition: color 0.3s ease;
+}
+.NavBar.sticky{
+    padding: 30px 0;
+    background: black;
+}
+.NavBar .logo{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.NavBar .logo span{
+    color: crimson;
+}
+.maxwidth{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.NavBar .maxwidth{
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+}
+.NavBar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.NavBar .menu li a:hover{
+    color: crimson;
+
+}
+.NavBar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.Home{
+    display: flex;
+    background: black;
+    background-image: url('Pictures/myself2ed.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.devinfo{
+    padding-left: 600px;
+    padding-right: 0;
+}
+.btn a{
+    color: white;
+    background: crimson;
+    font-size: 27px;
+    margin: 5px -8px;
+    padding: 7px;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: color 0.3s ease;
+}
+.btn a:hover{
+    background: black;
+    border: 2px solid crimson;
+    color: crimson;
+    cursor: pointer;
+}
+.selfphoto img{
+    width: 40vw;
+    height: 91vh;
+    display: inline-block;
+    position: absolute;
+    top: 9vh;
+    left: 0;
+}
+.Home .devinfo .name1{
+    font-size: 27px;
+}
+.Home .devinfo .name2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.Home .devinfo .name3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.Home .devinfo .name3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.Education{
+    background: white;
+    height: 100vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    height: 10vh;
+}
+section{
+    padding: 100px 0;
+}
+.block{
+    display: flex;
+}
+.block2{
+    height: 90vh;
+}
+.selfimage img{
+    width: 40vw;
+    height: 73vh;
+}
+.educationblock{
+    width: 50vw;
+    margin: 25px 100px;
+    padding: 17px 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 27px;
+    /* margin-bottom: 20px; */
+    border-style: outset;
+    border-radius: 30px;
+    text-align: center;
+}
+.schooltitle{
+    font-weight: 600;
+    color: crimson;
+    text-align: center;
+}
+.skills{
+    display: flex;
+}
+.skillname{
+    font-size: 60px;
+    font-weight: 500;
+    padding: 70px;
+    color: crimson;
+}
+.skillcontainer{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: auto;
+    padding: 20px;
+    border-style: outset;
+    width: 30vw;
+    height: 60vh;
+}
+.lists{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    /* border: 2px solid blue; */
+    margin: 20px;
+}
+/* section#Projects{
+    padding: 0px 0;
+} */
+.projectcontainer{
+    display: flex;
+}
+.projectblock{
+    border-style: outset;
+    margin: auto;
+    width: 30vw;
+    height: 60vh;
+}
+.Topic{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.hire{
+    height: fit-content;
+    width: fit-content;
+}
+.projectblock img{
+    display: block;
+    height: 336px;
+    width: 194px;
+    margin: auto;
+}
+.btn1 {
+    background: crimson;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+    padding: 5px 40px;
+    margin-left: 150px;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+.btn1 a{
+    color: white;
+}
+.btn1:hover{
+    background: white;
+    border: 2px solid crimson;
+}
+.btn1 a:hover{
+    color: crimson;
+}
+.certificate{
+    height: 100px;
+    width: 500px;
+}
+footer{
+    background-color: black;
+}
+small{
+    text-align: center;
+    color: white;
+}
